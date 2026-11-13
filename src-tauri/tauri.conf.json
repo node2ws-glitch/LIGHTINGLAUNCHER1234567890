@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "Millida Launcher",
+  "productName": "LightingLauncher",
   "version": "2.5.0",
-  "identifier": "net.millida.launcher",
+  "identifier": "com.lightinglauncher.app",
   "build": {
     "beforeDevCommand": "bun run dev",
     "devUrl": "http://localhost:5173",
@@ -14,7 +14,7 @@
     "withGlobalTauri": false,
     "windows": [
       {
-        "title": "Millida Launcher",
+        "title": "LightingLauncher",
         "width": 1200,
         "height": 760,
         "minWidth": 980,
@@ -185,12 +185,12 @@
       "rpm",
       "appimage"
     ],
-    "publisher": "Millida",
-    "homepage": "https://millida.net/launcher",
-    "copyright": "© 2026 Millida (ИП Веселов Никита Николаевич)",
+    "publisher": "LightingLauncher",
+    "homepage": "https://github.com/node2ws-glitch/LIGHTINGLAUNCHER1234567890",
+    "copyright": "© 2026 LightingLauncher",
     "category": "Game",
-    "shortDescription": "Лаунчер Minecraft",
-    "longDescription": "Лаунчер Minecraft от Millida: версии от Mojang, загрузчики Fabric, Quilt, Forge и NeoForge, моды и модпаки с Modrinth и CurseForge.",
+    "shortDescription": "Minecraft Launcher",
+    "longDescription": "LightingLauncher: Minecraft versions, Fabric, Quilt, Forge and NeoForge loaders, mods and modpacks from Modrinth and CurseForge.",
     "icon": [
       "icons/icon.icns",
       "icons/icon.ico",
@@ -225,7 +225,10 @@
         "installerIcon": "icons/icon.ico",
         "installMode": "currentUser",
         "installerHooks": "installer-hooks.nsh",
-        "languages": ["Russian", "English"]
+        "languages": [
+          "Russian",
+          "English"
+        ]
       }
     },
     "createUpdaterArtifacts": false
